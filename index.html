@@ -7,6 +7,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <style>
+      .zoom {
+        padding: 50px;
+        transition: transform .2s;
+        /* Animation */
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+      }
+    
+      .zoom:hover {
+        transform: scale(1.5);
+        border-radius: 0;
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+    </style>
 </head>
 <body>
 <header>
@@ -39,7 +55,7 @@
           <div class="row no-gutters ">
             <!--img-->
             <div class="col-md-2 blog-post-img">
-              <img src="./images/someperson1.jfif" class="mx-auto d-block card-img " alt="...">
+              <img src="./images/someperson1.jfif" class="mx-auto d-block card-img zoom" alt="someperson">
             </div>
             <!--/img-->
             <div class="col-md-8">
@@ -60,7 +76,7 @@
           <div class="row no-gutters ">
             <!--img-->
             <div class="col-md-2 blog-post-img">
-              <img src="./images/someperson2.jfif" class="mx-auto d-block card-img " alt="...">
+              <img src="./images/someperson2.jfif" class="mx-auto d-block card-img zoom" alt="someperson">
             </div>
             <!--/img-->
             <div class="col-md-8">
@@ -80,7 +96,7 @@
           <div class="row no-gutters ">
             <!--img-->
             <div class="col-md-2 blog-post-img">
-              <img src="./images/someperson3.jfif" class="mx-auto d-block card-img " alt="...">
+              <img src="./images/someperson3.jfif" class="mx-auto d-block card-img zoom" alt="someperson">
             </div>
             <!--/img-->
             <div class="col-md-8">
